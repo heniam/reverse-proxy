@@ -12,7 +12,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: heniam/simple-reverse-proxy
+      - image: heniam/reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
